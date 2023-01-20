@@ -12,6 +12,8 @@
     outline: solid var(--text-color) 1px;
 } */
 
+
+
 body,
 html{
     margin: 0;
@@ -28,6 +30,10 @@ body{
 
 .spacing{
     width: 70%;
+    margin: 0 auto;
+}
+.text-spacing{
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -47,6 +53,8 @@ a{
     color: var(--text-color);
     text-decoration: none;
 }
+
+
 #not-available{
     color: gray;
 }
@@ -89,6 +97,9 @@ a{
     text-align: justify;
 
     padding: 1em 0;
+
+    background-color: var(--primary-color);
+
 }
 .name-showcase > p{
     font-size: 2.5rem;
@@ -165,4 +176,29 @@ a{
     margin: 0 auto;
     max-width: 390px;
     max-height: 379.8px;
+}
+
+/*Articles Layout*/
+
+.article-main-section{
+    height: 90%;
+}
+.article-content{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.link{
+    color: var(--primary-accent-color);
+    padding: 1em 1em 1em 0;
+}
+.article-link-spacing{
+    display: block;
+    margin-top: 1em;
+}
+/* Temporal */
+.image-placeholder{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: var(--primary-color);
 }
