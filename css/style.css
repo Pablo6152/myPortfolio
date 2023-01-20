@@ -47,7 +47,9 @@ a{
     color: var(--text-color);
     text-decoration: none;
 }
-
+#not-available{
+    color: gray;
+}
 
 /* Navbar */
 .navbar{
@@ -67,7 +69,7 @@ a{
     font-size: 2.5rem;
 }
 .back-btn > p{
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 /* Name Showcase */
