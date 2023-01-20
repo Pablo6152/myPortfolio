@@ -43,6 +43,10 @@ h2,
 h3{
     margin: 0;
 }
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
 
 
 /* Navbar */
@@ -53,6 +57,17 @@ h3{
 }
 .navbar > i {
     margin: 0 .7em;
+}
+.back-btn{
+    display: flex;
+    align-items: center;
+    color: var(--primary-accent-color);
+}
+#back-arrow{
+    font-size: 2.5rem;
+}
+.back-btn > p{
+    font-size: .9rem;
 }
 
 /* Name Showcase */
@@ -83,9 +98,12 @@ h3{
 .motto{
     margin-top: 2em;
     letter-spacing: 3px;
-    
+    font-size: .8em;
 
     text-align: center;
+
+    max-width: 390px;
+    max-height: 40px;
 }
 
 .blue-accent{
@@ -97,9 +115,23 @@ h3{
 .user-menu{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.user-menu > a{
+    display: flex;
+    align-items: center;
+    padding: .3em;
+    transition: background-color ease-out 1s;
+}
+.user-menu > a:hover{
+    background-color: var(--secondary-accent-color);
+    color: #fff;
+    border-radius: 5px;
 }
 .user-options > p{
     padding-bottom: 1em;
@@ -121,6 +153,14 @@ h3{
 .header{
     height: 45%;
 }
+.name-showcase{
+    max-width: 273px;
+    max-height: 132px;
+}
 .user-menu{
     height: 45%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 390px;
+    max-height: 379.8px;
 }
