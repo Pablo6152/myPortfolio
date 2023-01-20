@@ -64,13 +64,21 @@ h3{
     justify-content: center;
 }
 .name-showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     outline: 3px var(--text-color) solid;
-    text-align: center;
+    text-align: justify;
+
+    padding: 1em 0;
 }
-.name-showcase > h1{
-    margin: .5em 2em;
+.name-showcase > p{
+    font-size: 2.5rem;
     letter-spacing: 5px;
     font-weight: 700;
+
+    text-align: center;
 }
 .motto{
     margin-top: 2em;
