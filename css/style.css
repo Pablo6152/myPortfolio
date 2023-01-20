@@ -1,0 +1,119 @@
+:root{
+    --primary-color: #1c1c1e;
+    --secondary-color: #000000;
+    --tertiary-color: rgba(28,28,30,255);
+    --text-color: #ffffff;
+    --primary-accent-color: #0b84fe;
+    --secondary-accent-color: #2ed158;
+    --gray-color: rgba(30, 30, 31, 255);
+}
+
+/* *{
+    outline: solid var(--text-color) 1px;
+} */
+
+body,
+html{
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    max-height: 100%;
+}
+
+.spacing{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#ham-menu,
+#toggle-theme{
+    font-size: 2rem;
+}
+
+/* General */
+p,
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar > i {
+    margin: 0 .7em;
+}
+
+/* Name Showcase */
+.header{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+.name-showcase{
+    outline: 3px var(--text-color) solid;
+    text-align: center;
+}
+.name-showcase > h1{
+    margin: .5em 2em;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.motto{
+    margin-top: 2em;
+    letter-spacing: 3px;
+    
+
+    text-align: center;
+}
+
+.blue-accent{
+    color: var(--primary-accent-color);
+    font-weight: 700;
+}
+
+/* User options */
+.user-menu{
+    display: flex;
+    flex-direction: column;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.user-options > p{
+    padding-bottom: 1em;
+    margin-top: 1em;
+    font-size: .8em;
+}
+.user-options{
+    display: flex;
+    justify-content: space-between;
+}
+.user-menu-options-underline{
+    border-bottom: 1px solid var(--gray-color); /* Need to adjust this */
+}
+
+/* Layout */
+.navbar{
+    height: 10%;
+    width: 100%;
+}
+.header{
+    height: 45%;
+}
+.user-menu{
+    height: 45%;
+}
