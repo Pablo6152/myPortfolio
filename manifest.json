@@ -1,0 +1,21 @@
+{
+  "background_color": "#000000",
+  "description": "Portfolio of Pablo Cisneros",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Pablo Cisneros",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Pablo's Portfolio",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}
