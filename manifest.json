@@ -7,7 +7,7 @@
   "orientation": "portrait",
   "scope": "/",
   "short_name": "Pablo's Portfolio",
-  "start_url": "/",
+  "start_url": "/index.html",
   "theme_color": "#000000",
   "categories": [
     "education",
@@ -27,20 +27,8 @@
   ],
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "/img/icon.png",
       "type": "image/x-icon"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Test",
-      "url": "/career.html",
-      "icons": [
-        {
-          "src": "test.png"
-        }
-      ],
-      "description": "test"
     }
   ],
   "lang": "en",
