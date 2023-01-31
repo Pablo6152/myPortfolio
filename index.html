@@ -59,6 +59,13 @@
         </div>
     
     </div>
+
+    
     <script src="./js/index.js" type="module"></script>
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+          navigator.serviceWorker.register('sw.js')
+        }
+      </script>
 </body>
 </html>
