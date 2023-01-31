@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    outline: rgba(28,28,30,255) solid 1px;
+    /* outline: rgba(28,28,30,255) solid 1px; */
 }
 body{
     font-family: 'Quicksand', sans-serif;
@@ -47,17 +47,27 @@ a{
 }
 /* Navbar */
 .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    backdrop-filter: blur(7px);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar > i { margin: 0 .7em; }
+.navbar > i {
+    margin: 0 .7em;
+    cursor: pointer;
+}
 .back-btn{
     display: flex;
     align-items: center;
     color: var(--primary-accent-color);
 }
 #back-arrow{ font-size: 2.5rem; }
+#toggle-theme{ font-size: 1.5rem; }
 
 /* Name Showcase */
 .header{
@@ -125,16 +135,8 @@ a{
     height: 100vh;
 
 }
-.navbar{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.navbar-top-spacing{
-    padding-top: 4em;
+.article-body{
+    margin-bottom: 4em;
 }
 .header{ height: 50%; }
 .user-menu{
@@ -143,10 +145,15 @@ a{
     margin: 0 auto;
 }
 .site-footer{
-    background-color: var(--primary-color);
     padding-top: .5em;
     padding-bottom: .5em;
     text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    backdrop-filter: blur(7px);
 }
 .disclaimer-text{
     color: gray;
@@ -154,6 +161,10 @@ a{
 
 /*Articles Layout*/
 .article-main-section{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 4em;
     height: 90%;
     margin-bottom: 1em;
 }
